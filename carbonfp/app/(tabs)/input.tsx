@@ -7,7 +7,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useContext } from 'react';
-import { EnergyProvider } from '@/context/EnergyContext';
+import { EnergyContext } from '../context/EnergyContext'; // Import the context correctly
 
 export default function TabTwoScreen() {
   // Access energyUsage and setEnergyUsage from context
