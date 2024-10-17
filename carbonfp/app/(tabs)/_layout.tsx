@@ -44,6 +44,16 @@ export default function TabLayout() {
             ),
           }}
         />
+        {/* New Tab for Final Line Chart */}
+        <Tabs.Screen
+          name="finalStats"
+          options={{
+            title: 'Final Stats',
+            tabBarIcon: ({ color, focused }) => (
+              <TabBarIcon name={focused ? 'analytics' : 'analytics-outline'} color={color} />
+            ),
+          }}
+        />
       </Tabs>
     </EnergyProvider>
   );
